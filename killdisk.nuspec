@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek
+     uppercase omega letter enclosed in quotation marks, you should use an
+     editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>killdisk</id>
+    <version>13.0</version>
+    <packageSourceUrl>https://github.com/theoricher/chocolatey-package-killdisk/</packageSourceUrl>
+    <owners>Théo</owners>
+    <title>Active@ KillDisk</title>
+    <authors>LSoft Technologies Inc.</authors>
+    <projectUrl>https://www.killdisk.com/eraser.html</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/theoricher/chocolatey-package-killdisk/master/icon.png</iconUrl>
+    <copyright>Active@ KillDisk</copyright>
+    <licenseUrl>https://www.killdisk.com/eula.htm</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://www.killdisk.com/eraser.html</projectSourceUrl>
+    <docsUrl>https://www.killdisk.com/killdisk-guide.htm</docsUrl>
+    <tags>killdisk active activekilldisk eraser</tags>
+    <summary>Active@ Kill Disk is a hard drive eraser.</summary>
+    <description>Active@ Kill Disk is a hard drive eraser software for secure formatting of hard drives without any possibility of following data recovery.</description>
+    <releaseNotes>http://www.killdisk.com/history.htm</releaseNotes>
+    <dependencies>
+        <dependency id="chocolatey" version="0.10.8" />
+    </dependencies>
+    <!-- chocolatey-uninstall.extension - If supporting 0.9.9.x (or below) and including a chocolateyUninstall.ps1 file to uninstall an EXE/MSI, you probably want to include chocolatey-uninstall.extension as a dependency. Please verify whether you are using a helper function from that package. -->
+
+    <!--<provides>NOT YET IMPLEMENTED</provides>-->
+    <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
+    <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
